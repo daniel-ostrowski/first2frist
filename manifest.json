@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "first2frist",
+    "version": "1.0",
+
+    "description": "Replace occurrences of \"first\" with \"frist\".",
+
+    "content_scripts": [
+	{
+	    "matches": ["*://*/*"],
+	    "js": ["frist.js"]
+	}
+    ]
+}
