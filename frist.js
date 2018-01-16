@@ -33,4 +33,4 @@ var recursiveReplace = function(parent, regex, newText) {
 	// otherwise the node does not matter
     };
 }
-recursiveReplace(document.body, /^(.+\s+)?(first|1st)/ig, "$1frist");
+recursiveReplace(document.body, /(F|f)(irst|irst)/g, "$1rist");
